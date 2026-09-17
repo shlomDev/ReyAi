@@ -40,6 +40,16 @@
 - Windows-only dependency markers and frozen worker dispatch corrected. Spec now
   produces the onedir layout expected by the Windows installer.
 
+## Discovery milestone — 2026-09-17
+- Added provider-independent normalized models for calendar interviews, recruiter
+  messages, preparation documents and interview briefs.
+- Added deterministic brief generation that matches meeting URLs and prep
+  attachments without inventing missing company or role data.
+- OAuth/Gmail/Calendar adapters are intentionally not included yet; this layer
+  accepts normalized data and is safe to test without credentials.
+- Added regression coverage for URL matching, attachment inclusion and missing-field
+  reporting.
+
 ## Architecture decisions
 Browser interviews are the primary experience. Chrome side panel + local companion
 share a provider-independent session controller. This is NOT a browser-only app:
