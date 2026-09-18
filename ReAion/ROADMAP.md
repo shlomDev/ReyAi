@@ -7,6 +7,7 @@
 - [x] Current-meeting selection without schedule file editing.
 - [x] Browser lifecycle safeguards and explicit external answer display status.
 - [x] Deterministic pipeline and HTTP regression tests.
+- [x] Provider-independent discovery models, offline normalized JSON loader, and deterministic interview brief generation.
 
 ## Required before live pilot
 - [ ] Real Meet + microphone + system audio + Whisper + ChatGPT repeated-question test.
@@ -21,7 +22,8 @@
 - [ ] Build, sign and test Windows installer on a clean VM.
 - [ ] Build and test Linux package and macOS signed/notarized application.
 - [ ] Secure extension distribution and companion installation/onboarding.
-- [ ] Google OAuth Calendar/Gmail discovery and recruiter attachments.
+- [ ] Google OAuth Calendar/Gmail adapters using the normalized discovery contract.
+- [ ] Recruiter-thread matching and local PDF/DOCX preparation extraction.
 - [ ] Production privacy/security review and no personal practice content.
 - [ ] Supported provider capability matrix based on observed tests.
 
