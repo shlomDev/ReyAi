@@ -1,0 +1,25 @@
+{
+  "event": {
+    "title": "Example infrastructure interview",
+    "start": "2026-09-20T10:00:00Z",
+    "end": "2026-09-20T11:00:00Z",
+    "company": "Example Corp",
+    "role": "Infrastructure Engineer",
+    "meeting_url": "https://meet.google.com/example-room"
+  },
+  "messages": [
+    {
+      "subject": "Interview preparation",
+      "received_at": "2026-09-18T10:00:00Z",
+      "sender": "recruiter@example.invalid",
+      "body": "Please review the attached troubleshooting topics before the interview.",
+      "attachments": [
+        {
+          "name": "prep-example.pdf",
+          "source": "local-test",
+          "text": "Example only; replace with an explicitly imported local document."
+        }
+      ]
+    }
+  ]
+}
